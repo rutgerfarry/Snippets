@@ -14,3 +14,13 @@ char * stringReturn() {
 }
 ```
 
+##### Enumerations done right
+```c
+enum Cars {
+    Acura
+    Ford
+    Honda
+    Jaguar
+    Zonda
+};
+```
