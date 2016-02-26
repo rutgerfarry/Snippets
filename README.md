@@ -2,9 +2,15 @@
 Helpful code snippets I'd like to remember
 
 ## Languages
-- [C](Languages/C.md)
-- [Javascript](Languages/Javascript.md)
-- [Swift](Languages/Swift.md)
+### C snippets
 
-## Frameworks
-[ReactiveCocoa](Frameworks/ReactiveCocoa.md)
+##### Return string from a function
+```c
+char * stringReturn() {
+    char * string = calloc(6, sizeof(char));
+    string = "hello";
+    
+    return string;
+}
+```
+
