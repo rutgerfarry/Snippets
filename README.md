@@ -16,7 +16,7 @@ char * stringReturn() {
 
 ##### Enumerations done right
 ```c
-enum Cars {
+enum Car {
     Acura,
     Ford,
     Honda,
